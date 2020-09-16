@@ -13,7 +13,7 @@ MetaDescription: Get Visual Studio Code up and running on Linux.
 
 See the [Download Visual Studio Code](/download) page for a complete list of available installation options.
 
-### Snap
+<strike>### Snap
 
 Visual Studio Code is officially distributed as a Snap package in the [Snap Store](https://snapcraft.io/store):
 
@@ -25,7 +25,8 @@ You can install it by running:
 sudo snap install --classic code # or code-insiders
 ```
 
-Once installed, the Snap daemon will take care of automatically updating VS Code in the background. You will get an in-product update notification whenever a new update is available.
+Once installed, the Snap daemon will take care of automatically updating VS Code in the background. You will get an in-product update notification whenever a new update is available.</strike>
+Do not install via Snap.  Doing so causes numerous issues with extensions, despite using --classic during the install of Visual Studio Code.
 
 **Note:** If `snap` isn't available in your Linux distribution, please check the following [Installing snapd guide](https://docs.snapcraft.io/installing-snapd), which can help you get that set up.
 
